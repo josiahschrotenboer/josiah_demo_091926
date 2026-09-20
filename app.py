@@ -22,7 +22,7 @@ st.set_page_config(
 )
  
 # ── Load secrets ─────────────────────────────────────────────────────────────
- 
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
  
 # ── LLMs ─────────────────────────────────────────────────────────────────────
 @st.cache_resource

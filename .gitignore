@@ -1,0 +1,17 @@
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment files
+.env
+
+# macOS
+.DS_Store
